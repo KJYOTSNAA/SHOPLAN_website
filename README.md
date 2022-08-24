@@ -2,24 +2,24 @@
 JavaScript ( Dynamic HTML Grid)
 
 
-web
+# web
 <img src="./pic1.png">
 
-mobile
+# mobile
 <img src="./pic2.png">
 
-# 2st section
 
-web
+
+# web
 <img src="./pic3.png">
 
-mobile
+# mobile
 <img src="./pic4.png">
 
-# 3st section
 
-web
+
+# web
 <img src="./pic5.png">
 
-mobile
+# mobile
 <img src="./pic6.png">
