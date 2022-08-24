@@ -1,3 +1,5 @@
+// hambargar menu
+
 $(document).ready(function () {
     $('.hambargar').click(function () {
         $('.nav-menu').toggleClass('show');
@@ -16,10 +18,9 @@ setInterval(function () {
     }
 }, 5000)
 
+//automatic slid show end
 
-
-
-
+//cards
 
 
 var products = document.querySelector(".clothHolder");
@@ -326,10 +327,8 @@ var productList = [{
 creatCard(productList);
 
 
+//cards end
 
 
 
-//automatic slid show end
-
-//cards
 
