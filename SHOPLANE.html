@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPLANE website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <!-- <script>
+        $(document).ready(function () {
+            $('.hambargar').click(function () {
+                $('.nav-menu').toggleClass('show');
+            })
+        });
+    </script> -->
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <span class="green">SHOP</span>
+            <span class="black">LANE</span>
+        </div>
+        <ul class="nav-menu">
+            <li> <a href=""> HOME </a></li>
+            <li> <a href="#clo"> CLOTHINGS </a> </li>
+            <li> <a href="#acce"> ACCESSORIES </a> </li>
+        </ul>
+
+
+        <div class="icon">
+            <i class="fa">&#xf002;</i>
+            <i class="fa fa-shopping-cart"></i>
+            <i class="fa">&#xf2be;</i>
+        </div>
+        <div class="hambargar">
+            <i class="material-icons">menu</i>
+        </div>
+    </nav>
+    <main>
+        <section class="slider">
+            <div class="slides">
+                <!-- radio button -->
+
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <!-- radio button  end-->
+                <!--slide image -->
+
+                <div class="slide first">
+                    <img src="./img/img1.png" alt="hm">
+                </div>
+                <div class="slide">
+                    <img src="./img/img2.png" alt="us">
+                </div>
+                <div class="slide">
+                    <img src="./img/img3.png" alt="wonder women">
+                </div>
+                <div class="slide">
+                    <img src="./img/img4.png" alt="puma">
+                </div>
+
+                <!--slide image -->
+                <!--automatic nav-->
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+
+
+                </div>
+
+                <!--automatic nav end-->
+
+
+            </div>
+
+        </section>
+        <!-- manual nav-->
+        <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+
+        </div>
+
+        <!-- manual nav end-->
+        <!-- <script>
+            var counter = 1;
+            setInterval(function () {
+                document.getElementById('radio' + counter).checked = true;
+                counter++
+                if (counter > 4) {
+                    counter = 1;
+                }
+            }, 5000)
+        </script> -->
+        <section>
+            <div id="clo">
+                <h2 class="heading">Clothing for Men and Women</h2>
+                <div class="clothHolder" id="cards">
+                    <!-- cards -->
+                </div>
+            </div>
+            <div id="acce">
+                <h2 class="heading">Accessories for Men and Women</h2>
+                <div class="acceHolder" id="cards">
+                    <!-- cards -->
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+
+        <ul>
+            <li><h3>ONLINE STORE</h3></li>
+            <li>MEN CLOTHING</li>
+            <li>WOMEN CLOTHING</li>
+            <li>MEN ACCESSORIES</li>
+            <li>WOMEN ACCESSORIES</li>
+        </ul>
+        <ul>
+            <li><h3>HELPFUL LINKS</h3></li>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+        </ul>
+
+        <ul>
+            <li><h3>PARTNERS</h3></li>
+            <li>ZARA</li>
+            <li>PANTALOONS</li>
+            <li>LEVIS</li>
+            <li>UCB</li>
+            <li>+ MANY MORE</li>
+        </ul>
+
+        <ul>
+            <li><h3>ADDRESS</h3></li>
+            <li>BUILDING 101</li>
+            <li>CENTRAL AVENUE</li>
+            <li>LA - 902722</li>
+            <li>UNITED STATES</li>
+        </ul>
+
+    </footer>
+
+    <script src="./myScript.js"></script>
+</body>
+
+</html>
